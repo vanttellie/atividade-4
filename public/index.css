@@ -1,0 +1,66 @@
+.navbar.fixed-top.navbar-dark.bg-dark{
+    width: 100%;
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+.nav-items{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-item.nav-link{
+    color: white;
+    transition: color 0.3s;
+}
+
+.nav-item.nav-link:hover {
+  color: #cccccc;
+}
+
+.btn-outline-success{
+    color: white;
+    border-color: white;
+}
+
+.btn-outline-success:hover{
+    background-color: white;
+    color: black;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #cccccc 0%, #eeeeee 100%);
+    min-height: 500px;
+    height: 100vh;
+}
+
+.display-4.fw-bold.mb-4{
+    color: black;
+}
+
+.lead.mb-4{
+    color: #333;
+}
+
+.btn-light{
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.btn-light:hover{
+    background-color: white;
+}
+
+.btn-outline-light{
+    color: #333;
+    border-color: #333;
+}
+
+.btn-outline-light:hover{
+    background-color: #333;
+    color: white;
+}
