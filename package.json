@@ -1,0 +1,24 @@
+{
+  "name": "atividade-4",
+  "version": "1.0.0",
+  "description": "Atividade 4 da matéria de Programação para Internet",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanttellie/atividade-4.git"
+  },
+  "author": "Ellen Priscila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanttellie/atividade-4/issues"
+  },
+  "homepage": "https://github.com/vanttellie/atividade-4#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
