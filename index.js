@@ -22,6 +22,12 @@ app.get("/", (requisicao, resposta) => {
     resposta.sendFile(path.join(__dirname, "public", "index.html"));
 });
 
+app.use(express.static('public', { setHeaders: (res, path) => {
+    if (path.endsWith('.css')) {
+        res.setHeader('Content-Type', 'text/css');
+    }
+}}));
+
 //PÁGINA DE LOGIN
 app.get('/login', (requisicao, resposta) => {
   resposta.sendFile(path.join(__dirname, "public", "login.html"));
