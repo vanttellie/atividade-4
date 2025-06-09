@@ -1,0 +1,57 @@
+/* NAV-BAR */
+.navbar.fixed-top.navbar-dark.bg-dark{
+    width: 100%;
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+.nav-items{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-item.nav-link{
+    color: white;
+    transition: color 0.3s;
+}
+
+.nav-item.nav-link:hover {
+  color: #cccccc;
+}
+
+.btn-outline-success{
+    color: white;
+    border-color: white;
+}
+
+.btn-outline-success:hover{
+    background-color: white;
+    color: black;
+}
+
+/* TABELA DE PRODUTOS */
+.table th, .table td {
+  padding: 10px 12px;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.table thead th {
+  background-color: black !important;
+  color: white;
+  font-weight: 600;
+  border: none;
+}
+
+.table {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table-responsive {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+}

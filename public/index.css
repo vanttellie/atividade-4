@@ -31,7 +31,7 @@
     color: black;
 }
 
-.hero-section {
+.hero-section{
     background: linear-gradient(135deg, #cccccc 0%, #eeeeee 100%);
     min-height: 500px;
     height: 100vh;
